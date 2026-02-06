@@ -50,14 +50,14 @@ Generation: The retrieved context and the user's question are passed to the Groq
     2. Run the Chatbot: Start the interactive assistant.
         python main.py
         
-<img width="900" height="200" alt="Screenshot 2026-02-06 191734" src="https://github.com/user-attachments/assets/86b17e1a-20b3-4e3e-99ba-a399c11db422" />
+<img width="1301" height="493" alt="Screenshot 2026-02-06 191734" src="https://github.com/user-attachments/assets/86b17e1a-20b3-4e3e-99ba-a399c11db422" />
 
 
     3. Run Evaluation: Test the system against the predefined question set.
         python evaluate.py
         
 
-<img width="900" height="200" alt="Screenshot 2026-02-06 192140" src="https://github.com/user-attachments/assets/b04f0c83-46b2-483f-82c6-0ff62e3d8134" />
+<img width="1301" height="493" alt="Screenshot 2026-02-06 192140" src="https://github.com/user-attachments/assets/b04f0c83-46b2-483f-82c6-0ff62e3d8134" />
 
 
 4. Design Decisions
