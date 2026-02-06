@@ -73,12 +73,12 @@ Generation: The retrieved context and the user's question are passed to the Groq
 5. Prompt Engineering (Iteration Process)
     One of the key requirements was to improve the prompt to handle edge cases.
 
-        > Iteration 1: The Baseline (Initial Attempt)
+   > Iteration 1: The Baseline (Initial Attempt)
         My first prompt was a generic instruction.
            Template: "Answer the question based on the context below: {context} Question: {question}"
         Critique: This prompt failed the "Negative Constraint" test. When asked "Do you ship to Mars?", the model attempted to be helpful by using general knowledge or making up a plausible answer, rather than                 admitting the policy didn't exist.
 
-        > Iteration 2: The Final Version (Implemented)
+   > Iteration 2: The Final Version (Implemented)
             I refined the prompt to strictly bound the model to the provided text.
             Template:
             "You are a helpful customer support assistant. Your task is to answer the user's question based STRICTLY on the provided context below. Rules:
