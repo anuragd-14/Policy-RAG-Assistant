@@ -1,0 +1,88 @@
+.venv/
+venv/
+env/
+ENV/
+\.env
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+.installed.cfg
+*.egg-info
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+*.log
+*.pot
+*.mo
+*.pyc
+*.pyo
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nose2-junit-report.xml
+coverage.xml
+*.cover
+hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.ruff.toml
+htmlcov/
+.tox/
+.nox/
+.venv/
+coverage/
+build/
+dist/
+/.eggs
+*.sqlite3
+chroma_db/*.sqlite3
+# Jupyter
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+history/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# SSH keys
+id_rsa
+id_rsa.pub
+
+# Pyre type checker
+.pyre/
+
+# dotenv
+.env
+
+# local virtualenv
+local_env/
+
+# macOS
+.Spotlight-V100
+.Trashes
